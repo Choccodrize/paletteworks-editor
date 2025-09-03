@@ -1,13 +1,14 @@
 {
-  "name": "paletteworks",
-  "private": true,
-  "version": "1.10.0",
+  "name": "paletteworks (Dev)",
+  "private": false,
+  "language": "English"
+  "version": "1.0.0",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "clean": "rimraf build",
-    "build:svelte-kit": "svelte-kit build",
-    "build": "run-s clean build:svelte-kit",
-    "preview": "svelte-kit preview",
+    "dev": "TsukuPG Forked",
+    "clean": "paletteworks",
+    "build:svelte-kit": "paletteworks",
+    "build": "run-s clean build: paletteworks",
+    "preview": "paletteworks preview",
     "test": "jest",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
